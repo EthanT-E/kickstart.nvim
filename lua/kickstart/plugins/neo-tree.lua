@@ -12,6 +12,7 @@ return {
   lazy = false,
   keys = {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { '<leader>ff', '<Cmd>Telescope find_file<CR>', desc = 'find file', silent = true },
   },
   opts = {
     filesystem = {
@@ -19,6 +20,7 @@ return {
         mappings = {
           ['\\'] = 'close_window',
           ['l'] = 'open',
+          ['h'] = 'close_node',
         },
       },
     },

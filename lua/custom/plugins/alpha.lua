@@ -40,6 +40,7 @@ return {
       dashboard.button('c', '  > Config', '<Cmd>e C:\\Users\\tripp\\AppData\\Local\\nvim<CR>'),
       dashboard.button('l', '󰒲  > Lazy', '<Cmd>Lazy<CR>'),
       dashboard.button('m', '󱌣  > Mason', '<Cmd>Mason<CR>'),
+      dashboard.button('h', '󰋠 > Check health', '<Cmd>checkhealth<CR>'),
       dashboard.button('q', '󰩈  > Quit NVIM', ':qa<CR>'),
     }
     alpha.setup(dashboard.opts)
